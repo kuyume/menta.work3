@@ -32,34 +32,34 @@
 }
 @keyframes ham-turn_on_right{
 	from{
-		        transform: rotate(0deg) translate(0, 0);
+		transform: rotate(0deg) translate(0, 0);
 	}
 	to{
-		        transform: rotate(495deg) translate(-0.7vw, 1.3vw);
+		transform: rotate(495deg) translate(-0.7vw, 1.3vw);
 	}
 }
 @keyframes ham-turn_off_right{
 	from{
-		        transform: rotate(495deg) translate(-0.7vw, 1.3vw);
+		transform: rotate(495deg) translate(-0.7vw, 1.3vw);
 	}
 	to{
-		        transform: rotate(0deg) translate(0, 0);
+		transform: rotate(0deg) translate(0, 0);
 	}
 }
 @keyframes ham-turn_on_left{
 	from{
-		        transform: rotate(0deg) translate(0, 0);
+		transform: rotate(0deg) translate(0, 0);
 	}
 	to{
-		        transform: rotate(-495deg) translate(-0.7vw, -1.3vw);
+		transform: rotate(-495deg) translate(-0.7vw, -1.3vw);
 	}
 }
 @keyframes ham-turn_off_left{
 	from{
-		        transform: rotate(-495deg) translate(-0.7vw, -1.3vw);
+		transform: rotate(-495deg) translate(-0.7vw, -1.3vw);
 	}
 	to{
-		        transform: rotate(0deg) translate(0, 0);
+		transform: rotate(0deg) translate(0, 0);
 	}
 }
 .ham-down{
@@ -108,11 +108,13 @@
 .mar-down{
 	animation: mar-down 1s linear 0s 1 forwards;
 }
-.top--container--nav--menu--SNS {
+.top--container--nav--menu--SNSs{
+	display: none;
+}
+.top--container--nav--menu--SNS{
 	position: absolute;
 	top: 47.5vw;
 	left: 81vw;
-	display: none;
 }
 .top--container--nav--menu--SNS li{
 	display: inline-block;

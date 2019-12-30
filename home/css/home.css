@@ -77,6 +77,9 @@
 .ham-icon{
 	display: none;
 }
+.top--container--nav--menu--SNSs{
+	display: none;
+}
 .center__logo{
 	position: absolute;
 	z-index: 1;
