@@ -1,0 +1,165 @@
+.w-699{
+	width: 36.4vw;
+}
+.fs-140{
+	font-size: 7.3vw;
+}
+.fs-100{
+	font-size: 5.2vw;
+}
+.fs-70{
+	font-size: 3.65vw;
+}
+.fs-60{
+	font-size: 3.1vw;
+}
+.fs-50{
+	font-size: 2.6vw;
+}
+.fs-40{
+	font-size: 2.1vw;
+}
+.fs-35{
+	font-size: 1.8vw;
+}
+.fs-30{
+	font-size: 1.56vw;
+}
+.fs-25{
+	font-size: 1.3vw;
+}
+.fs-23{
+	font-size: 1.2vw;
+}
+.fs-20{
+	font-size: 1vw;
+}
+.fs-18{
+	font-size: 0.93vw;
+}
+.fs-15{
+	font-size: 0.8vw;
+}
+
+.ta-l{
+	text-align: left;
+}
+.ta-c{
+	text-align: center;
+}
+.ta-r{
+	text-align: right;
+}
+
+.va-t{
+	vertical-align: top;
+}
+
+
+.toppan-midashi-eb{
+	font-family: toppan-bunkyu-midashi-min-st, serif;
+	font-style: normal;
+	font-weight: 900;
+}
+.toppan-eb{
+	font-family: toppan-bunkyu-mincho-pr6n, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+.white{
+	color: #FFFFFF;
+}
+
+
+.ls-14{
+	letter-spacing: 0.73vw;
+}
+.ls-8{
+	letter-spacing: 0.42vw;
+}
+.ls-7{
+	letter-spacing: 0.36vw;
+}
+.ls-6{
+	letter-spacing: 0.31vw;
+}
+.ls-5{
+	letter-spacing: 0.26vw;
+}
+.ls-4_6{
+	letter-spacing: 0.24vw;
+}
+.ls-3_5{
+	letter-spacing: 0.18vw;
+}
+.ls-3{
+	letter-spacing: 0.156vw;
+}
+.ls-2_5{
+	letter-spacing: 0.13vw;
+}
+.ls-2_3{
+	letter-spacing: 0.12vw;
+}
+.ls-2{
+	letter-spacing: 0.1vw;
+}
+.ls-1_8{
+	letter-spacing: 0.09vw;
+}
+.ls-1_5{
+	letter-spacing: 0.08vw;
+}
+
+.lh-70{
+	line-height: 3.65vw;
+}
+.lh-50{
+	line-height: 2.6vw;
+}
+.lh-30{
+	line-height: 1.56vw;
+}
+
+.background-black{
+	background-color: rgba(0, 0, 0, 0.95);
+}
+.background-gray{
+	background-color: #F8F8F8;
+}
+.background-dark_gray{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.background-white{
+	background-color: #FFFFFF;
+}
+.background-white_passthrough{
+	background-color: rgba(255, 255, 255, 0.95);
+}
+.background-gray_passthrough{
+	background-color: rgba(248, 248, 248, 0.95);
+}
+
+
+.standard-nav{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.db{
+	display: block;
+}
+.dib{
+	display: inline-block;
+}

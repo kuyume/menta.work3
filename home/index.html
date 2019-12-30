@@ -2,56 +2,70 @@
 <html lang="ja" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <script src="font.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="home.js" type="text/javascript" charset="utf-8" async defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <script src="js/font.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/home.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script src="js/ham.js" type="text/javascript" charset="utf-8" async defer></script>
   <title>nav</title>
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="elements.css">
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="css/home.css" media="screen">
+  <link rel="stylesheet" href="css/hometablet.css" media="screen and (max-width:768px)">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/elements.css">
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <nav class="top--container--NAV standard-nav">
+    <nav class="top--container--NAV standard-nav" id="nav">
       <div class="top--container--nav--LOGO">
         <p class="top--container--nav--logo--TEXT_MAIN fs-23 ta-c toppan-midashi-eb white ls-4_6">暮らしの体験宿<span class="fs-40 ta-c toppan-midashi-eb white ls-8">いろは</span></p>
         <p class="top--container--nav--logo--TEXT_SUB fs-15 ta-c toppan-midashi-eb white ls-3">-Yakushima Lodge& Food Atelier-</p>
       </div>
-      <div class="top--container--nav--MENU">
-        <ul class="top--container--nav--menu--CONTENTS standard-nav">
+      <div class="top--container--nav--MENU" id="ham">
+        <ul class="top--container--nav--menu--CONTENTS standard-nav" id="ham-on">
           <li class="top--container--nav--menu--contents__CONTENT">
             <a href="" title="">
-              <p class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30">About iroha</h2>
-              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA">-いろはのこと-</p>
+              <h2 class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30 ham-main">About iroha</h2>
+              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA ham-sub">-いろはのこと-</p>
             </a>
           </li>
           <li class="top--container--nav--menu--contents__CONTENT">
             <a href="" title="">
-              <p class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30">Lodge</h2>
-              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA">-宿泊ロッジ-</p>
+              <h2 class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30 ham-main">Lodge</h2>
+              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA ham-sub">-宿泊ロッジ-</p>
             </a>
           </li>
           <li class="top--container--nav--menu--contents__CONTENT">
             <a href="" title="">
-              <p class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30">Food Atelier<br>& Lounge</h2>
-                <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA">-食工房/ラウンジ-</p>
+              <h2 class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30 ham-main">Food Atelier<br>& Lounge</h2>
+                <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA ham-sub">-食工房/ラウンジ-</p>
             </a>
           </li>
           <li class="top--container--nav--menu--contents__CONTENT">
             <a href="" title="">
-              <p class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30">Interactive<br>Program</h2>
-              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_8 nav--LANG__JA">-体験プログラム-</p>
+              <h2 class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30 ham-main">Interactive<br>Program</h2>
+              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_8 nav--LANG__JA ham-sub">-体験プログラム-</p>
             </a>
           </li>
           <li class="top--container--nav--menu--contents__CONTENT">
             <a href="" title="">
-              <p class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30">Booking</h2>
-              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA">-ご予約-</p>
+              <h2 class="fs-25 ta-c toppan-midashi-eb white ls-2_5 lh-30 ham-main">Booking</h2>
+              <p class="fs-15 ta-c toppan-midashi-eb white ls-1_5 nav--LANG__JA ham-sub">-ご予約-</p>
             </a>
           </li>
         </ul>
       </div>
+      <div>
+        <ul class="top--container--nav--menu--SNS" id="ham-sns">
+        <li><a href="" title=""><img src="images/Facebook.svg" alt=""></a></li>
+        <li><a href="" title=""><img src="images/Instagram.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="ham-icon" id="ham-icon">
+        <div class="ham-line-1 background-white" id="ham-line-1"></div>
+        <div class="ham-line-2 background-white" id="ham-line-2"></div>
+        <div class="ham-line-3 background-white" id="ham-line-3"></div>
+      </div>
     </nav>
-  <section class="TOP">
+  <section class="TOP" id="top">
     <div class="top--CONTAINER">
       <img class="center__logo" src="images/logo-main.svg" alt="">
       <img class="top--IMAGE" src="" id="fadeOutObj">
@@ -62,7 +76,7 @@
     <div class="about--CONTAINER">
       <div class="about--container--DESC ta-l">
         <div class="about--container--desc--MAIN">
-          <p class="fs-50 toppan-midashi-eb ls-5">「stay iroha as live」</p>
+          <p class="fs-50 toppan-midashi-eb">「stay iroha as live」</p>
         </div>
         <div class="about--container--desc--SUB">
           <p class="fs-35 toppan-eb lh-50 ls-3_5">テキストテキストテキスト<br>屋久島の地で、、、いろはで、感じて欲しいこと。<br><br>作っていきたい空間。<br>丸さんたちの想い。<br>暮らしの体験宿、いろは</p>
@@ -75,9 +89,8 @@
         </div>
       </div>
       <div class="about--container--IMAGES">
-        <p></p>
         <img class="db w-699" src="images/home1.jpg" alt="">
-        <img style="margin-top: 79px; " class="db w-699" src="images/home2.jpg" alt="">
+        <img class="db w-699" src="images/home2.jpg" alt="">
       </div>
       <div class="about--container--background--BOX"></div>
     </div>
@@ -109,11 +122,11 @@
       </div>
       <div class="IMAGES clearfix">
         <ul>
-          <li><img src="images/lodge2.svg" alt=""></li>
-          <li><img src="images/lodge3.svg" alt=""></li>
-          <li><img src="images/lodge4.svg" alt=""></li>
-          <li><img src="images/lodge5.svg" alt=""></li>
-          <li><img src="images/lodge6.svg" alt=""></li>
+          <li><img src="images/lodge2.jpg" alt=""></li>
+          <li><img src="images/lodge3.jpg" alt=""></li>
+          <li><img src="images/lodge4.jpg" alt=""></li>
+          <li><img src="images/lodge5.jpg" alt=""></li>
+          <li><img src="images/lodge6.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -130,7 +143,7 @@
         <div class="title--FAKE_HR"></div>
       </div>
       <div class="fal--container--desc--IMAGE va-t dib">
-        <img src="images/fal1.svg" alt="">
+        <img src="images/fal1.jpg" alt="">
       </div>
       <div class="DESC background-gray_passthrough dib">
         <div class="desc--MAIN">
@@ -145,11 +158,11 @@
       </div>
       <div class="IMAGES clearfix">
         <ul>
-          <li><img src="images/fal2.svg" alt=""></li>
-          <li><img src="images/fal3.svg" alt=""></li>
-          <li><img src="images/fal4.svg" alt=""></li>
-          <li><img src="images/fal5.svg" alt=""></li>
-          <li><img src="images/fal6.svg" alt=""></li>
+          <li><img src="images/fal2.jpg" alt=""></li>
+          <li><img src="images/fal3.jpg" alt=""></li>
+          <li><img src="images/fal4.jpg" alt=""></li>
+          <li><img src="images/fal5.jpg" alt=""></li>
+          <li><img src="images/fal6.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -177,15 +190,15 @@
         </div>
       </div>
       <div class="interactive--container--desc--IMAGE va-t dib">
-        <img src="images/interactive1.svg" alt="">
+        <img src="images/interactive1.jpg" alt="">
       </div>
       <div class="IMAGES clearfix">
         <ul>
-          <li><img src="images/interactive2.svg" alt=""></li>
-          <li><img src="images/interactive3.svg" alt=""></li>
-          <li><img src="images/interactive4.svg" alt=""></li>
-          <li><img src="images/interactive5.svg" alt=""></li>
-          <li><img src="images/interactive6.svg" alt=""></li>
+          <li><img src="images/interactive2.jpg" alt=""></li>
+          <li><img src="images/interactive3.jpg" alt=""></li>
+          <li><img src="images/interactive4.jpg" alt=""></li>
+          <li><img src="images/interactive5.jpg" alt=""></li>
+          <li><img src="images/interactive6.jpg" alt=""></li>
         </ul>
       </div>
     </div>

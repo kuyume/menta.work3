@@ -1,0 +1,22 @@
+.TITLE{
+	height: 4.01vw;
+}
+.title--FAKE_HR{
+	height: 0.1vw;
+	background-color: #000000;
+}
+.DESC{
+	position: relative;
+	z-index: 2;
+}
+.desc--MORE{
+	width: 8.125vw;
+	height: 2.55vw;
+	border: solid 1px #707070;
+	padding-top: 0.99vw;
+	padding-left: 1.61vw;
+}
+.IMAGES li{
+	float: left;
+	margin-right: 0.04vw;
+}
